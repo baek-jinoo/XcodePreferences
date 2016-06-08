@@ -40,7 +40,7 @@ task :update_prefs do
   run('defaults write com.apple.dt.Xcode IDEBuildingContinueBuildingAfterErrors -bool true')
   run('defaults write com.apple.dt.Xcode IDEEditorCoordinatorTarget_DoubleClick SeparateTab')
   run('defaults write com.apple.dt.Xcode DVTTextEditorTrimWhitespaceOnlyLines -bool true')
-  run('defaults write com.apple.dt.Xcode DVTFontAndColorCurrentTheme akitchen.dvtcolortheme')
+  run('defaults write com.apple.dt.Xcode DVTFontAndColorCurrentTheme jin.dvtcolortheme')
 end
 
 namespace :reset do
